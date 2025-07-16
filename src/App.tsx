@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ComingSoon from "./pages/ComingSoon";
+import WaitingListAdmin from "./pages/WaitingListAdmin";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/coming-soon/:section" element={<ComingSoon />} />
+          <Route path="/admin/waiting-list" element={<WaitingListAdmin />} />
           {/* Custom routes go above the catch-all route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
