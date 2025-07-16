@@ -1,65 +1,50 @@
-# Traffik
+# Traffik - Waiting List
 
-A modern traffic monitoring application built with React and TypeScript.
+[![Deploy to GitHub Pages](https://github.com/shravan20/traffik/actions/workflows/deploy.yml/badge.svg)](https://github.com/shravan20/traffik/actions/workflows/deploy.yml)
 
-## Getting Started
+A simple waiting list page for the upcoming Traffik application. Users can join the waiting list as either users or contributors.
 
-### Prerequisites
+## 🚀 Live Demo
 
-Make sure you have Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Visit the live application: [https://shravan20.github.io/traffik/](https://shravan20.github.io/traffik/)
 
-### Installation
+## Features
 
-Follow these steps to set up the project locally:
+- **Join Waiting List**: Users can sign up with their name and email
+- **Role Selection**: Choose to join as a User, Contributor, or both
+- **Admin Dashboard**: View waiting list entries and statistics
+- **NocoDB Integration**: All data is stored in NocoDB database
+
+## Quick Start
 
 ```sh
-# Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory
+# Clone and install
+git clone https://github.com/shravan20/traffik.git
 cd traffik
+bun install
 
-# Step 3: Install dependencies
-npm i
-
-# Step 4: Start the development server
-npm run dev
+# Start development server
+bun run dev
 ```
 
-## Technology Stack
+## Tech Stack
 
-This project is built with:
-
-- **Vite** - Build tool and development server
-- **TypeScript** - Type-safe JavaScript
-- **React** - UI library
-- **shadcn/ui** - Component library
-- **Tailwind CSS** - Utility-first CSS framework
-
-## Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run build:dev` - Build for development
-- `npm run lint` - Run ESLint
-- `npm run preview` - Preview production build
+- React + TypeScript + Vite
+- Tailwind CSS + shadcn/ui components
+- NocoDB for database
+- GitHub Pages for deployment
 
 ## Deployment
 
-Build the project for production:
+The project automatically deploys to GitHub Pages when you push to the main branch. The application will be available at `https://shravan20.github.io/traffik/`
 
-```sh
-npm run build
+## Environment Setup
+
+Copy `.env.example` to `.env` and configure your NocoDB credentials:
+
+```bash
+VITE_NOCODB_BASE_URL=https://projectID.nocodb.com
+VITE_NOCODB_API_TOKEN=your_token_here
+VITE_NOCODB_PROJECT_ID=your_project_id
+VITE_NOCODB_TABLE_ID=your_table_id
 ```
-
-The built files will be in the `dist` directory, ready for deployment to any static hosting service.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
