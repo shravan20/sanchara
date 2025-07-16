@@ -31,7 +31,7 @@ const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
-                {/* Community-driven traffic management solution built for transparency, privacy, and collaboration. */}
+                Community-driven traffic management solution built for transparency, privacy, and collaboration.
               </p>
             </div>
 

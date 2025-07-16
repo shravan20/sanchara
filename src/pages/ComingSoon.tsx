@@ -31,7 +31,7 @@ const ComingSoon = () => {
         "Testing and quality assurance",
         "Design and UX improvements"
       ],
-      timeline: "Q2 2025",
+      timeline: "Q3 2025",
       color: "bg-primary/10 text-primary"
     },
     "report-issues": {
@@ -45,7 +45,7 @@ const ComingSoon = () => {
         "Community voting",
         "Status tracking"
       ],
-      timeline: "Q1 2025",
+      timeline: "Q3 2025",
       color: "bg-destructive/10 text-destructive"
     },
     "feature-requests": {
@@ -59,7 +59,7 @@ const ComingSoon = () => {
         "Implementation timeline",
         "Feedback collection"
       ],
-      timeline: "Q1 2025",
+      timeline: "Q3 2025",
       color: "bg-community/10 text-community"
     },
     documentation: {
@@ -73,7 +73,7 @@ const ComingSoon = () => {
         "Developer guides",
         "Best practices"
       ],
-      timeline: "Q2 2025",
+      timeline: "Q3 2025",
       color: "bg-blue-500/10 text-blue-600"
     },
     "api-reference": {
@@ -87,7 +87,7 @@ const ComingSoon = () => {
         "Rate limiting",
         "SDKs and libraries"
       ],
-      timeline: "Q2 2025",
+      timeline: "Q3 2025",
       color: "bg-purple-500/10 text-purple-600"
     },
     "open-data": {
@@ -101,7 +101,7 @@ const ComingSoon = () => {
         "Visualization dashboards",
         "Research datasets"
       ],
-      timeline: "Q3 2025",
+      timeline: "Q4 2025",
       color: "bg-green-500/10 text-green-600"
     },
     "research-papers": {
