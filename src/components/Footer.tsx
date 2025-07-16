@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { GitBranch, Github, Twitter, MessageSquare, Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -31,33 +32,33 @@ const Footer = () => {
               <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
                 Join Discord
               </a>
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              <Link to="/coming-soon/contribute" className="block text-muted-foreground hover:text-primary transition-colors">
                 Contribute
-              </a>
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              </Link>
+              <Link to="/coming-soon/report-issues" className="block text-muted-foreground hover:text-primary transition-colors">
                 Report Issues
-              </a>
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              </Link>
+              <Link to="/coming-soon/feature-requests" className="block text-muted-foreground hover:text-primary transition-colors">
                 Feature Requests
-              </a>
+              </Link>
             </div>
           </div>
 
           <div className="space-y-4">
             <h4 className="font-medium">Resources</h4>
             <div className="space-y-2 text-sm">
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              <Link to="/coming-soon/documentation" className="block text-muted-foreground hover:text-primary transition-colors">
                 Documentation
-              </a>
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              </Link>
+              <Link to="/coming-soon/api-reference" className="block text-muted-foreground hover:text-primary transition-colors">
                 API Reference
-              </a>
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              </Link>
+              <Link to="/coming-soon/open-data" className="block text-muted-foreground hover:text-primary transition-colors">
                 Open Data
-              </a>
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              </Link>
+              <Link to="/coming-soon/research-papers" className="block text-muted-foreground hover:text-primary transition-colors">
                 Research Papers
-              </a>
+              </Link>
             </div>
           </div>
 
