@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/traffik/' : '/',
+  base: process.env.GITHUB_PAGES === 'true' ? '/traffik/' : '/',
   server: {
     host: "::",
     port: 8080,
