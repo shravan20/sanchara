@@ -1,15 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  ArrowLeft, 
-  Clock, 
-  Users, 
-  GitBranch, 
-  MessageSquare, 
-  FileText, 
-  Code, 
-  Database, 
+import {
+  ArrowLeft,
+  Clock,
+  Users,
+  GitBranch,
+  MessageSquare,
+  FileText,
+  Code,
+  Database,
   BookOpen,
   Bug,
   Lightbulb
@@ -18,7 +18,7 @@ import { Link, useParams } from "react-router-dom";
 
 const ComingSoon = () => {
   const { section } = useParams<{ section: string }>();
-  
+
   const sectionConfig = {
     contribute: {
       title: "Contribute",
@@ -182,13 +182,15 @@ const ComingSoon = () => {
                   <h3 className="text-2xl font-semibold">Stay Connected</h3>
                 </div>
                 <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                  Join our community to get updates on development progress, participate in discussions, 
+                  Join our community to get updates on development progress, participate in discussions,
                   and be the first to know when this feature becomes available.
                 </p>
                 <div className="flex flex-wrap gap-4 justify-center">
                   <Button variant="outline" className="bg-primary/10 hover:bg-primary/20">
                     <MessageSquare className="h-4 w-4 mr-2" />
-                    Join Discord
+                    <a href="https://discord.gg/VYE9CNtcp5" target="_blank" rel="noopener noreferrer">
+                      Join Discord
+                    </a>
                   </Button>
                   <Button variant="outline" className="bg-community/10 hover:bg-community/20">
                     <GitBranch className="h-4 w-4 mr-2" />

@@ -110,7 +110,7 @@ const WaitingList = () => {
   }
 
   return (
-    <section className="py-20 bg-gradient-subtle">
+    <section className="py-20 bg-gradient-subtle" data-section="waiting-list">
       <div className="container">
         <div className="max-w-md mx-auto">
           <Card className="shadow-elevated">
