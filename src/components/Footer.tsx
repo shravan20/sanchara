@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="text-lg font-bold">Sanchara</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Community-driven, open-source traffic management for Bangalore.
+              Community-driven, open-source traffic management for Bangalore. 
               Built with ❤️ by the people, for the people.
             </p>
             <div className="flex gap-2">
@@ -30,9 +30,7 @@ const Footer = () => {
             <h4 className="font-medium">Community</h4>
             <div className="space-y-2 text-sm">
               <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
-                <a href="https://discord.gg/VYE9CNtcp5" target="_blank" rel="noopener noreferrer">
-                  Join Discord
-                </a>
+                Join Discord
               </a>
               <Link to="/coming-soon/contribute" className="block text-muted-foreground hover:text-primary transition-colors">
                 Contribute
@@ -67,7 +65,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="font-medium">Connect</h4>
             <div className="flex gap-4">
-              <a href="https://github.com/shravan20/sanchara" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="h-5 w-5" />
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
