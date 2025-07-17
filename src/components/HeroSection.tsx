@@ -38,7 +38,9 @@ const HeroSection = () => {
             <div className="flex flex-wrap gap-4">
               <Button variant="community" size="lg">
                 <Users className="h-4 w-4" />
-                Join Community
+                <a href="https://discord.gg/VYE9CNtcp5" target="_blank" rel="noopener noreferrer">
+                  Join Community
+                </a>
               </Button>
             </div>
 

@@ -22,8 +22,10 @@ const Header = () => {
             <Users className="h-4 w-4" />
             <span>1,247 active</span>
           </div>
-          <Button variant="community" size="sm">
-            Join Community
+          <Button variant="community" size="sm" asChild>
+            <a href="https://discord.gg/VYE9CNtcp5" target="_blank" rel="noopener noreferrer">
+              Join Community
+            </a>
           </Button>
           <Button variant="outline" size="icon" className="md:hidden">
             <Menu className="h-4 w-4" />
