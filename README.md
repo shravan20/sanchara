@@ -27,7 +27,7 @@
 
 - Sanchara is an ambitious project to create a **peer-to-peer, decentralized traffic reporting system** that empowers communities to share real-time traffic information without relying on centralized platforms or compromising privacy.
 
-- *San-Chara* draws its name from the community: San for goodness, Chara for movement, and Sanchara for togetherness (Inspired and suggested by [Raghav](https://github.com/raghavyuva) )
+- *San-Chara* draws its name from the community: San for goodness, Chara for movement, and Sanchara for togetherness (The idea and inspiration for the name came from [Raghav](https://github.com/raghavyuva) )
 
 ### Core Vision
 
