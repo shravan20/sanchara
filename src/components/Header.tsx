@@ -9,7 +9,7 @@ const Header = () => {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
             <GitBranch className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold text-primary">Traffik</span>
+            <span className="text-xl font-bold text-primary">Sanchara</span>
           </div>
           <Badge variant="outline" className="bg-primary/10 text-primary">
             FOSS

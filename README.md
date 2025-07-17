@@ -1,12 +1,12 @@
-# Traffik - Waiting List
+# Sanchara - Waiting List
 
-[![Deploy to GitHub Pages](https://github.com/shravan20/traffik/actions/workflows/deploy.yml/badge.svg)](https://github.com/shravan20/traffik/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/shravan20/sanchara/actions/workflows/deploy.yml/badge.svg)](https://github.com/shravan20/sanchara/actions/workflows/deploy.yml)
 
-A simple waiting list page for the upcoming Traffik application. Users can join the waiting list as either users or contributors.
+A simple waiting list page for the upcoming Sanchara application. Users can join the waiting list as either users or contributors.
 
 ## 🚀 Live Demo
 
-Visit the live application: [https://shravan20.github.io/traffik/](https://shravan20.github.io/traffik/)
+Visit the live application: [https://shravan20.github.io/sanchara/](https://shravan20.github.io/sanchara/)
 
 ## Features
 
@@ -19,8 +19,8 @@ Visit the live application: [https://shravan20.github.io/traffik/](https://shrav
 
 ```sh
 # Clone and install
-git clone https://github.com/shravan20/traffik.git
-cd traffik
+git clone https://github.com/shravan20/sanchara.git
+cd sanchara
 bun install
 
 # Start development server
@@ -36,7 +36,7 @@ bun run dev
 
 ## Deployment
 
-The project automatically deploys to GitHub Pages when you push to the main branch. The application will be available at `https://shravan20.github.io/traffik/`
+The project automatically deploys to GitHub Pages when you push to the main branch. The application will be available at `https://shravan20.github.io/sanchara/`
 
 ## Environment Setup
 

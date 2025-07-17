@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <GitBranch className="h-5 w-5 text-primary" />
-              <span className="text-lg font-bold">Traffik</span>
+              <span className="text-lg font-bold">Sanchara</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Community-driven, open-source traffic management for Bangalore. 
@@ -83,7 +83,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t text-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 Traffik Community. Open source under MIT License.
+            © 2024 Sanchara Community. Open source under MIT License.
           </p>
           <p className="text-sm text-muted-foreground mt-2 flex items-center justify-center gap-1">
             Made with <Heart className="h-4 w-4 text-red-500" /> for better traffic management
