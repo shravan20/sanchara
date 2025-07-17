@@ -1,50 +1,38 @@
-# Sanchara - Waiting List
+<p align="center">
+  <img align="center" width="10%" src="https://github.com/user-attachments/assets/be256424-bdb6-46ef-af50-31e2b065736f" alt="logo"/>
+</p>
 
-[![Deploy to GitHub Pages](https://github.com/shravan20/sanchara/actions/workflows/deploy.yml/badge.svg)](https://github.com/shravan20/sanchara/actions/workflows/deploy.yml)
+<h1 align="center">Sanchara</h1>
 
-A simple waiting list page for the upcoming Sanchara application. Users can join the waiting list as either users or contributors.
+<p align="center">
+  <strong>Public, Open, and Decentralized traffic map by the people, for the people.</strong>
+</p>
 
-## 🚀 Live Demo
+<p align="center">
+  <em>Dream Nahi, Aim Bolo 🥇</em>
+</p>
+<p align="center">
 
-Visit the live application: [https://shravan20.github.io/sanchara/](https://shravan20.github.io/sanchara/)
+</p>
 
-## Features
+<p align="center">
+  <a href="https://discord.gg/VYE9CNtcp5" target="_blank">Discord Server</a> &nbsp;|&nbsp;
+  <a href="https://github.com/shravan20/sanchara/discussions/2" target="_blank">Public Roadmap</a> &nbsp;|&nbsp;
+  <a href="https://github.com/shravan20/sanchara/issues" target="_blank">Issue Tracker</a>
+</p>
 
-- **Join Waiting List**: Users can sign up with their name and email
-- **Role Selection**: Choose to join as a User, Contributor, or both
-- **Admin Dashboard**: View waiting list entries and statistics
-- **NocoDB Integration**: All data is stored in NocoDB database
+---
 
-## Quick Start
+| Spotlight                  | In a Nutshell                                                                                                                                                                            |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **What is Sanchara?**    | <br>Sanchara is an ambitious project to create a **peer-to-peer, decentralized traffic reporting system** that empowers communities to share real-time traffic information without relying on centralized platforms or compromising privacy.<br><br>**San-Chara** draws its name from the community: San for goodness, Chara for movement, and Sanchara for togetherness. <br><br>**The idea and inspiration for the name came from [Raghav](https://github.com/raghavyuva)** <br><br> |
+| **Core Vision**          | <br><br> A crowdsourced traffic map where users can report jams, accidents, hazards, and clear roads:all while maintaining complete data ownership and privacy.<br><br>Check out our Public Roadmap [here](https://github.com/shravan20/sanchara/discussions/2). <br><br> |
+| **Current Status**       | <br><br> We currently have a **waiting list page** for early adopters and contributors to sign up. This is just the beginning!<br><br>**Join our waiting list:** [sanchara.waitlist](https://shravan20.github.io/sanchara/) <br><br> |
+| **Current Implementation** | <br><br> This is a simple waiting list page as of now. <br><br>                                                                                                                            |
+| **How We Work (Community Promise)** | <br><br> - **100% transparency** : All code, data, and decisions are public <br> - **Community-driven** : Roadmap and priorities shaped by community input <br> - **Every bit counts** : All contributions matter <br> - **Open collaboration** : Join via PR, [Discord](https://discord.gg/VYE9CNtcp5), or just follow along! <br><br>|
 
-```sh
-# Clone and install
-git clone https://github.com/shravan20/sanchara.git
-cd sanchara
-bun install
+---
 
-# Start development server
-bun run dev
-```
-
-## Tech Stack
-
-- React + TypeScript + Vite
-- Tailwind CSS + shadcn/ui components
-- NocoDB for database
-- GitHub Pages for deployment
-
-## Deployment
-
-The project automatically deploys to GitHub Pages when you push to the main branch. The application will be available at `https://shravan20.github.io/sanchara/`
-
-## Environment Setup
-
-Copy `.env.example` to `.env` and configure your NocoDB credentials:
-
-```bash
-VITE_NOCODB_BASE_URL=https://projectID.nocodb.com
-VITE_NOCODB_API_TOKEN=your_token_here
-VITE_NOCODB_PROJECT_ID=your_project_id
-VITE_NOCODB_TABLE_ID=your_table_id
-```
+<p align="center">
+  <strong>Let's build the future of traffic reporting together!</strong>
+</p>
