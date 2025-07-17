@@ -23,34 +23,13 @@
 
 ---
 
-### What is Sanchara?
-
-- Sanchara is an ambitious project to create a **peer-to-peer, decentralized traffic reporting system** that empowers communities to share real-time traffic information without relying on centralized platforms or compromising privacy.
-
-- *San-Chara* draws its name from the community: San for goodness, Chara for movement, and Sanchara for togetherness (The idea and inspiration for the name came from [Raghav](https://github.com/raghavyuva) )
-
-### Core Vision
-
-- **Our vision**: A crowdsourced traffic map where users can report jams, accidents, hazards, and clear roads—all while maintaining complete data ownership and privacy.
-
-- Checkout our Public Roadmap [here](https://github.com/shravan20/sanchara/discussions/2).
-
-### Current Status: Foundation Phase
-
-- Right now, we've a **waiting list page** for early adopters and contributors to sign up. This is just the beginning!
-
-- **Current Phase:** Join our waiting list at [sanchara.waitlist](https://shravan20.github.io/sanchara/).
-
-### Current Implementation
-
-- This is a simple waiting list page as of now.
-
-### How We Work (Community Promise)
-
-- **100% transparency** - All code, data, and decisions are public
-- **Community-driven** - Roadmap and priorities shaped by community input
-- **Every bit counts** - All contributions matters
-- **Open collaboration** - Join via PR, [Discord](https://discord.gg/VYE9CNtcp5), or just follow along!
+| Spotlight                  | In a Nutshell                                                                                                                                                                            |
+|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **What is Sanchara?**    | Sanchara is an ambitious project to create a **peer-to-peer, decentralized traffic reporting system** that empowers communities to share real-time traffic information without relying on centralized platforms or compromising privacy.<br><br>*San-Chara* draws its name from the community: San for goodness, Chara for movement, and Sanchara for togetherness. <br>*(The idea and inspiration for the name came from [Raghav](https://github.com/raghavyuva))* |
+| **Core Vision**          | A crowdsourced traffic map where users can report jams, accidents, hazards, and clear roads:all while maintaining complete data ownership and privacy.<br><br>Check out our Public Roadmap [here](https://github.com/shravan20/sanchara/discussions/2). |
+| **Current Status**       | We currently have a **waiting list page** for early adopters and contributors to sign up. This is just the beginning!<br><br>**Join our waiting list:** [sanchara.waitlist](https://shravan20.github.io/sanchara/) |
+| **Current Implementation** | This is a simple waiting list page as of now.                                                                                                                                   |
+| **How We Work (Community Promise)** | - **100% transparency** : All code, data, and decisions are public <br> - **Community-driven** : Roadmap and priorities shaped by community input <br> - **Every bit counts** : All contributions matter <br> - **Open collaboration** : Join via PR, [Discord](https://discord.gg/VYE9CNtcp5), or just follow along! |
 
 ---
 
