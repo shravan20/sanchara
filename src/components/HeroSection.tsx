@@ -1,10 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Users, Eye, GitBranch, Zap, Globe } from "lucide-react";
+import { Shield, Users, Eye, GitBranch, Zap, Globe, Mail } from "lucide-react";
 import heroImage from "@/assets/hero-traffic.jpg";
 
 const HeroSection = () => {
+  const scrollToWaitingList = () => {
+    const waitingListSection = document.querySelector('section[data-section="waiting-list"]');
+    if (waitingListSection) {
+      waitingListSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative overflow-hidden py-20 lg:py-32">
       <div className="absolute inset-0 bg-gradient-hero opacity-10" />
@@ -41,6 +48,10 @@ const HeroSection = () => {
                 <a href="https://discord.gg/VYE9CNtcp5" target="_blank" rel="noopener noreferrer">
                   Join Community
                 </a>
+              </Button>
+              <Button variant="outline" size="lg" onClick={scrollToWaitingList}>
+                <Mail className="h-4 w-4" />
+                Join Waitinglist
               </Button>
             </div>
 
