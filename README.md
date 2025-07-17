@@ -25,25 +25,25 @@
 
 ### What is Sanchara?
 
-Sanchara is an ambitious project to create a **peer-to-peer, decentralized traffic reporting system** that empowers communities to share real-time traffic information without relying on centralized platforms or compromising privacy.
+- Sanchara is an ambitious project to create a **peer-to-peer, decentralized traffic reporting system** that empowers communities to share real-time traffic information without relying on centralized platforms or compromising privacy.
 
-*San-Chara* draws its name from the community: San for goodness, Chara for movement, and Sanchara for togetherness (Inspired and suggested by [Raghav](https://github.com/raghavyuva) )
+- *San-Chara* draws its name from the community: San for goodness, Chara for movement, and Sanchara for togetherness (Inspired and suggested by [Raghav](https://github.com/raghavyuva) )
 
 ### Core Vision
 
-Our vision: A crowdsourced traffic map where users can report jams, accidents, hazards, and clear roads—all while maintaining complete data ownership and privacy.
+- **Our vision**: A crowdsourced traffic map where users can report jams, accidents, hazards, and clear roads—all while maintaining complete data ownership and privacy.
 
-Checkout our Public Roadmap [here](https://github.com/shravan20/sanchara/discussions/2).
+- Checkout our Public Roadmap [here](https://github.com/shravan20/sanchara/discussions/2).
 
 ### Current Status: Foundation Phase
 
-Right now, we've a **waiting list page** for early adopters and contributors to sign up. This is just the beginning!
+- Right now, we've a **waiting list page** for early adopters and contributors to sign up. This is just the beginning!
 
-**Current Phase:** Join our waiting list at [sanchara.waitlist](https://shravan20.github.io/sanchara/).
+- **Current Phase:** Join our waiting list at [sanchara.waitlist](https://shravan20.github.io/sanchara/).
 
 ### Current Implementation
 
-This is a simple waiting list page as of now.
+- This is a simple waiting list page as of now.
 
 ### How We Work (Community Promise)
 
