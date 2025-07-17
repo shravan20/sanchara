@@ -1,99 +1,99 @@
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Users, Eye, GitBranch, Zap, Globe, Mail } from "lucide-react";
-import heroImage from "@/assets/hero-traffic.jpg";
+import { GitBranch, Github, Twitter, MessageSquare, Heart } from "lucide-react";
+import { Link } from "react-router-dom";
 
-const HeroSection = () => {
-  const scrollToWaitingList = () => {
-    const waitingListSection = document.querySelector('section[data-section="waiting-list"]');
-    if (waitingListSection) {
-      waitingListSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
+const Footer = () => {
   return (
-    <section className="relative overflow-hidden py-20 lg:py-32">
-      <div className="absolute inset-0 bg-gradient-hero opacity-10" />
-      <div className="container relative">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-8 items-center">
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <div className="flex items-center gap-2">
-                <Badge variant="outline" className="bg-primary/10 text-primary">
-                  Open Source
-                </Badge>
-                <Badge variant="outline" className="bg-community/10 text-community">
-                  Community Driven
-                </Badge>
-              </div>
-              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
-                Traffic by the{" "}
-                <span className="bg-gradient-primary bg-clip-text text-transparent">
-                  People
-                </span>
-                , for the{" "}
-                <span className="bg-gradient-community bg-clip-text text-transparent">
-                  People
-                </span>
-              </h1>
-              <p className="text-xl text-muted-foreground max-w-2xl">
-                Community-driven traffic management solution built for transparency, privacy, and collaboration.
-              </p>
+    <footer className="bg-muted/50 border-t">
+      <div className="container py-12">
+        <div className="grid gap-8 md:grid-cols-4">
+          <div className="space-y-4">
+            <div className="flex items-center gap-2">
+              <GitBranch className="h-5 w-5 text-primary" />
+              <span className="text-lg font-bold">Sanchara</span>
             </div>
-
-            <div className="flex flex-wrap gap-4">
-              <Button variant="community" size="lg">
-                <Users className="h-4 w-4" />
-                <a href="https://discord.gg/VYE9CNtcp5" target="_blank" rel="noopener noreferrer">
-                  Join Community
-                </a>
-              </Button>
-              <Button variant="outline" size="lg" onClick={scrollToWaitingList}>
-                <Mail className="h-4 w-4" />
-                Join Waitinglist
-              </Button>
-            </div>
-
-            <div className="grid grid-cols-3 gap-4 pt-8">
-              <Card className="text-center">
-                <CardContent className="p-4">
-                  <Shield className="h-8 w-8 text-primary mx-auto mb-2" />
-                  <p className="text-sm font-medium">Privacy First</p>
-                  <p className="text-xs text-muted-foreground">No tracking</p>
-                </CardContent>
-              </Card>
-              <Card className="text-center">
-                <CardContent className="p-4">
-                  <Zap className="h-8 w-8 text-community mx-auto mb-2" />
-                  <p className="text-sm font-medium">P2P Network</p>
-                  <p className="text-xs text-muted-foreground">Decentralized</p>
-                </CardContent>
-              </Card>
-              <Card className="text-center">
-                <CardContent className="p-4">
-                  <Globe className="h-8 w-8 text-primary mx-auto mb-2" />
-                  <p className="text-sm font-medium">Open Data</p>
-                  <p className="text-xs text-muted-foreground">Transparent</p>
-                </CardContent>
-              </Card>
+            <p className="text-sm text-muted-foreground">
+              Community-driven, open-source traffic management for Bangalore.
+              Built with ❤️ by the people, for the people.
+            </p>
+            <div className="flex gap-2">
+              <Badge variant="outline" className="bg-primary/10 text-primary">
+                FOSS
+              </Badge>
+              <Badge variant="outline" className="bg-community/10 text-community">
+                P2P
+              </Badge>
             </div>
           </div>
 
-          <div className="relative">
-            <div className="absolute -inset-4 bg-gradient-primary rounded-2xl blur-2xl opacity-30" />
-            <Card className="relative overflow-hidden shadow-elevated">
-              <img
-                src={heroImage}
-                alt="Community-driven traffic management visualization"
-                className="w-full h-auto rounded-lg"
-              />
-            </Card>
+          <div className="space-y-4">
+            <h4 className="font-medium">Community</h4>
+            <div className="space-y-2 text-sm">
+              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+                <a href="https://discord.gg/VYE9CNtcp5" target="_blank" rel="noopener noreferrer">
+                  Join Discord
+                </a>
+              </a>
+              <Link to="/coming-soon/contribute" className="block text-muted-foreground hover:text-primary transition-colors">
+                Contribute
+              </Link>
+              <Link to="/coming-soon/report-issues" className="block text-muted-foreground hover:text-primary transition-colors">
+                Report Issues
+              </Link>
+              <Link to="/coming-soon/feature-requests" className="block text-muted-foreground hover:text-primary transition-colors">
+                Feature Requests
+              </Link>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h4 className="font-medium">Resources</h4>
+            <div className="space-y-2 text-sm">
+              <Link to="/coming-soon/documentation" className="block text-muted-foreground hover:text-primary transition-colors">
+                Documentation
+              </Link>
+              <Link to="/coming-soon/api-reference" className="block text-muted-foreground hover:text-primary transition-colors">
+                API Reference
+              </Link>
+              <Link to="/coming-soon/open-data" className="block text-muted-foreground hover:text-primary transition-colors">
+                Open Data
+              </Link>
+              <Link to="/coming-soon/research-papers" className="block text-muted-foreground hover:text-primary transition-colors">
+                Research Papers
+              </Link>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h4 className="font-medium">Connect</h4>
+            <div className="flex gap-4">
+              <a href="https://github.com/shravan20/sanchara" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                <Github className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <Twitter className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                <MessageSquare className="h-5 w-5" />
+              </a>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              Built for Bangalore, by Bangalore
+            </p>
           </div>
         </div>
+
+        <div className="mt-8 pt-8 border-t text-center">
+          <p className="text-sm text-muted-foreground">
+            © 2024 Sanchara Community. Open source under MIT License.
+          </p>
+          <p className="text-sm text-muted-foreground mt-2 flex items-center justify-center gap-1">
+            Made with <Heart className="h-4 w-4 text-red-500" /> for better traffic management
+          </p>
+        </div>
       </div>
-    </section>
+    </footer>
   );
 };
 
-export default HeroSection;
+export default Footer;
