@@ -1,8 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GitBranch, Users, Shield, Menu } from "lucide-react";
+import AnimatedCounter from "./AnimatedCounter";
+import { useWaitingListCount } from "@/hooks/useWaitingListCount";
 
 const Header = () => {
+  const { count, isLoading } = useWaitingListCount();
+
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
@@ -20,7 +24,15 @@ const Header = () => {
         <div className="flex items-center gap-2">
           <div className="hidden sm:flex items-center gap-2 text-sm text-muted-foreground">
             <Users className="h-4 w-4" />
-            <span>1,247 active</span>
+            <span>
+              {isLoading ? (
+                <span className="animate-pulse">Loading...</span>
+              ) : (
+                <>
+                  <AnimatedCounter targetNumber={count} duration={2000} /> active
+                </>
+              )}
+            </span>
           </div>
           <Button variant="community" size="sm" asChild>
             <a href="https://discord.gg/VYE9CNtcp5" target="_blank" rel="noopener noreferrer">

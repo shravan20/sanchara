@@ -6,6 +6,7 @@ const NOCODB_CONFIG = {
   apiToken: import.meta.env.VITE_NOCODB_API_TOKEN || '',
   projectId: import.meta.env.VITE_NOCODB_PROJECT_ID || 'pl83vhf500pt4wh',
   tableId: import.meta.env.VITE_NOCODB_TABLE_ID || 'mm496evpoh5n9o7',
+  viewId: import.meta.env.VITE_NOCODB_VIEW_ID || 'vwur4z20x9sg3ld1',
 };
 
 // Create axios instance with default config
@@ -14,7 +15,13 @@ const nocodbApi = axios.create({
   headers: {
     'Content-Type': 'application/json',
     'accept': 'application/json, text/plain, */*',
-    'xc-token': NOCODB_CONFIG.apiToken,
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7',
+    'origin': 'https://app.nocodb.com',
+    'referer': 'https://app.nocodb.com/',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-site',
+    'xc-auth': NOCODB_CONFIG.apiToken, // Using xc-auth for JWT token
     'xc-gui': 'true',
   },
 });
@@ -138,6 +145,44 @@ class NocoDBService {
     } catch (error) {
       console.error('Email check error:', error);
       return false;
+    }
+  }
+
+  /**
+   * Get waiting list count from the specific endpoint
+   */
+  async getWaitingListCount(): Promise<NocoDBResponse<{ count: number }>> {
+    try {
+      if (!isNocoDBConfigured()) {
+        return {
+          data: { count: 0 },
+          success: false,
+          message: 'NocoDB is not configured.',
+        };
+      }
+
+      // Use the specific count endpoint from the curl request
+      const response = await nocodbApi.get(
+        `/api/v1/db/data/noco/${NOCODB_CONFIG.projectId}/${NOCODB_CONFIG.tableId}/views/${NOCODB_CONFIG.viewId}/count`,
+        {
+          params: {
+            where: '',
+          },
+        }
+      );
+
+      return {
+        data: { count: response.data.count || 0 },
+        success: true,
+      };
+    } catch (error: any) {
+      console.error('Count fetch error:', error);
+      
+      return {
+        data: { count: 0 },
+        success: false,
+        message: error.response?.data?.message || 'Failed to fetch count.',
+      };
     }
   }
 
