@@ -1,3 +1,5 @@
+<samp>
+  
 <p align="center">
   <img align="center" width="10%" src="https://github.com/user-attachments/assets/be256424-bdb6-46ef-af50-31e2b065736f" alt="logo"/>
 </p>
@@ -9,9 +11,10 @@
 </p>
 
 <p align="center">
+
   <em>Dream Nahi, Aim Bolo 🥇</em>
-</p>
-<p align="center">
+
+  <em>ಸಂಚಾರ - ಸನ್ನಿಹಿತಕ್ಕೊಂದು ವಿಚಾರ</em>
 
 </p>
 
@@ -36,3 +39,6 @@
 <p align="center">
   <strong>Let's build the future of traffic reporting together!</strong>
 </p>
+
+</samp>
+
