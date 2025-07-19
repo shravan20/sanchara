@@ -89,6 +89,11 @@ const HeroSection = () => {
                 className="w-full h-auto rounded-lg"
               />
             </Card>
+            <div className="mt-4 text-center">
+              <p className="text-muted-foreground font-semibold text-lg tracking-wide">
+                ಸಂಚಾರ - ಸನ್ನಿಹಿತಕ್ಕೊಂದು ವಿಚಾರ
+              </p>
+            </div>
           </div>
         </div>
       </div>

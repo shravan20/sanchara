@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GitBranch, Users, Shield, Menu } from "lucide-react";
 import AnimatedCounter from "./AnimatedCounter";
+import TypeWriter from "./TypeWriter";
 import { useWaitingListCount } from "@/hooks/useWaitingListCount";
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
             <GitBranch className="h-6 w-6 text-primary" />
-            <span className="text-xl font-bold text-primary">Sanchara</span>
+            <TypeWriter className="text-xl font-bold text-primary" typingSpeed={100} deletingSpeed={50} pauseDuration={1500} />
           </div>
           <Badge variant="outline" className="bg-primary/10 text-primary">
             FOSS
